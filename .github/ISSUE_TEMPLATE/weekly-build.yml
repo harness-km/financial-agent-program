@@ -1,0 +1,88 @@
+name: Weekly build increment
+description: One week's build assignment. Generated from docs/weeks/week-NN/spec.md.
+title: "Week NN — <focus>"
+labels: ["build"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is generated from the week's `spec.md`. Edit the spec, not
+        this issue, then re-run `scripts/seed_issues.py`.
+
+  - type: input
+    id: week
+    attributes:
+      label: Week
+      placeholder: "04"
+    validations:
+      required: true
+
+  - type: input
+    id: sprint
+    attributes:
+      label: Sprint
+      placeholder: "2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What exists at the end of this week
+      description: The observable result, not the activity.
+    validations:
+      required: true
+
+  - type: textarea
+    id: spec
+    attributes:
+      label: Spec
+      description: >
+        Function signatures, inputs, outputs and behaviour. Precise enough to
+        prompt from without inventing anything.
+    validations:
+      required: true
+
+  - type: textarea
+    id: security
+    attributes:
+      label: Security criterion
+      description: >
+        What the code must do, not what to discuss. Stated so it can pass or
+        fail, e.g. "rejects any ticker outside config.TICKERS" or "the trace
+        contains no credential". Part of the Definition of Done.
+    validations:
+      required: true
+
+  - type: textarea
+    id: tests
+    attributes:
+      label: How it is checked
+      description: The test command, and what each test asserts.
+      placeholder: "pytest tests/week_04"
+    validations:
+      required: true
+
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Deliberately not in scope
+      description: What not to build this week, so the assistant does not add it.
+
+  - type: textarea
+    id: reading
+    attributes:
+      label: Reference reading
+      description: Which files in the reference projects to read, and what to look for.
+
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Definition of Done
+      options:
+        - label: The week's tests pass
+        - label: The week's security criterion is met
+        - label: Eval score recorded (from week 7)
+        - label: Cost ledger row committed
+        - label: Prompt trail posted
+        - label: Consultant-track section added (at the sprint boundary)

@@ -1,0 +1,115 @@
+name: Consultant increment
+description: One sprint's section of the transformation plan for the client.
+title: "Sprint N — implementing <the artifact built this sprint>"
+labels: ["consultant"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Written for the client in `docs/consultant/company-brief.md`, following
+        `docs/consultant/plan-template.md`.
+
+        The question is always about what you just built: we now have this, so
+        what would it take for this firm to actually run it?
+
+  - type: input
+    id: sprint
+    attributes:
+      label: Sprint
+      placeholder: "2"
+    validations:
+      required: true
+
+  - type: input
+    id: artifact
+    attributes:
+      label: The artifact this is about
+      placeholder: "A single agent answering multi-step questions over three data sources"
+    validations:
+      required: true
+
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: One-line recommendation
+      description: What you would tell the client to do about this capability now.
+    validations:
+      required: true
+
+  - type: textarea
+    id: strategy
+    attributes:
+      label: Strategy
+      description: >
+        Why the firm would do this at all, and which alternative you are
+        rejecting — do nothing, buy a vendor product, hire two analysts.
+    validations:
+      required: true
+
+  - type: textarea
+    id: infrastructure
+    attributes:
+      label: Infrastructure and cost
+      description: >
+        What must exist to run it, then the numbers from your own ledger: cost
+        per run, runs per day at real volume, monthly total. State every
+        assumption as an assumption.
+    validations:
+      required: true
+
+  - type: textarea
+    id: deployment
+    attributes:
+      label: Deployment
+      description: >
+        How it gets from your machine to something people use, and how it
+        changes safely once they depend on it. "Not deployable yet" is a valid
+        answer if you say what the gap is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: monitoring
+    attributes:
+      label: Monitoring
+      description: >
+        What signal, seen by whom, how often. Separate "it is broken" from "it
+        is confidently wrong", and name the threshold that triggers a human
+        looking.
+    validations:
+      required: true
+
+  - type: textarea
+    id: people
+    attributes:
+      label: People and resources
+      description: >
+        Who operates it, whose work changes, what they must learn, what you
+        would hire. Be concrete about work this absorbs that someone is paid to
+        do.
+    validations:
+      required: true
+
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk and governance
+      description: >
+        Risk, impact, control, owner. Include at least one risk your own work
+        this sprint introduced rather than solved.
+    validations:
+      required: true
+
+  - type: textarea
+    id: open
+    attributes:
+      label: Open questions
+      description: Three to five, each specific enough to get a usable answer.
+    validations:
+      required: true
+
+  - type: textarea
+    id: least-sure
+    attributes:
+      label: Which part of this I am least sure about
+      description: Optional, and usually the most persuasive thing in the section.

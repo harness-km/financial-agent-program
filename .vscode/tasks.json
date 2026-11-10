@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Check my environment",
+      "type": "shell",
+      "command": "python scripts/doctor.py",
+      "problemMatcher": [],
+      "group": "none"
+    },
+    {
+      "label": "Test this week",
+      "type": "shell",
+      "command": "pytest tests/week_${input:week}",
+      "problemMatcher": [],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Test everything",
+      "type": "shell",
+      "command": "pytest",
+      "problemMatcher": [],
+      "group": "test"
+    },
+    {
+      "label": "Lint",
+      "type": "shell",
+      "command": "ruff check . && ruff format --check .",
+      "problemMatcher": [],
+      "group": "none"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "week",
+      "type": "promptString",
+      "description": "Week number, zero padded",
+      "default": "01"
+    }
+  ]
+}

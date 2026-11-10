@@ -1,0 +1,53 @@
+labels: ["submission"]
+body:
+  - type: input
+    id: week
+    attributes:
+      label: Week
+      placeholder: "04"
+    validations:
+      required: true
+
+  - type: input
+    id: pr
+    attributes:
+      label: Pull request
+      description: Link to your PR. Weeks 1 to 4 may link a notebook instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: spec
+    attributes:
+      label: The spec I wrote
+    validations:
+      required: true
+
+  - type: textarea
+    id: prompts
+    attributes:
+      label: Prompts I used
+      description: In order, including the ones that went wrong.
+    validations:
+      required: true
+
+  - type: textarea
+    id: ledger
+    attributes:
+      label: Cost ledger row
+      placeholder: "model | calls | tokens in | tokens out | cost | eval score"
+    validations:
+      required: true
+
+  - type: textarea
+    id: broke
+    attributes:
+      label: What broke and how I found it
+    validations:
+      required: true
+
+  - type: textarea
+    id: unclear
+    attributes:
+      label: Anything I could not explain
+      description: Optional, and the most useful thing you can post.

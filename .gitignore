@@ -1,0 +1,31 @@
+# Environment
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Run artifacts — these are yours, not the repo's
+ledger.csv
+scratchpad/
+.runs/
+*.log
+
+# OS and editor
+.DS_Store
+Thumbs.db
+*.swp
