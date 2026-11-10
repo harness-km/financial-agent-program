@@ -1,0 +1,36 @@
+{
+  "ticker": "MSFT",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:06Z",
+  "data": [
+    {
+      "fiscal_year": 2026,
+      "revenue": 331839000000,
+      "gross_profit": 225465000000,
+      "operating_income": 155237000000,
+      "net_income": 133749000000
+    },
+    {
+      "fiscal_year": 2025,
+      "revenue": 281724000000,
+      "gross_profit": 193893000000,
+      "operating_income": 128528000000,
+      "net_income": 101832000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 245122000000,
+      "gross_profit": 171008000000,
+      "operating_income": 109433000000,
+      "net_income": 88136000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 211915000000,
+      "gross_profit": 146052000000,
+      "operating_income": 88523000000,
+      "net_income": 72361000000
+    }
+  ]
+}

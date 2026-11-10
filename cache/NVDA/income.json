@@ -1,0 +1,36 @@
+{
+  "ticker": "NVDA",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:06Z",
+  "data": [
+    {
+      "fiscal_year": 2026,
+      "revenue": 215938000000,
+      "gross_profit": 153463000000,
+      "operating_income": 130387000000,
+      "net_income": 120067000000
+    },
+    {
+      "fiscal_year": 2025,
+      "revenue": 130497000000,
+      "gross_profit": 97858000000,
+      "operating_income": 81453000000,
+      "net_income": 72880000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 60922000000,
+      "gross_profit": 44301000000,
+      "operating_income": 32972000000,
+      "net_income": 29760000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 26974000000,
+      "gross_profit": 15356000000,
+      "operating_income": 5577000000,
+      "net_income": 4368000000
+    }
+  ]
+}

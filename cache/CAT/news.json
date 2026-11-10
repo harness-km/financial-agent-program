@@ -1,0 +1,68 @@
+{
+  "ticker": "CAT",
+  "dataset": "news",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:12Z",
+  "data": [
+    {
+      "title": "How AI Power Order Will Impact Caterpillar (CAT) Investors",
+      "publisher": "Simply Wall St.",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-power-order-impact-caterpillar-181326275.html",
+      "published": "2026-11-10T18:13:26Z"
+    },
+    {
+      "title": "Stock Market Today: Dow Dips On Hot Inflation Data, Rate Hike Calls; Rubio Says This On Iran (Live Coverage)",
+      "publisher": "Investor's Business Daily",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-anthropic-ipo/?src=A00220&yptr=yahoo",
+      "published": "2026-11-10T18:04:25Z"
+    },
+    {
+      "title": "The 'Big Short' Investor Locks in Profits on Overlooked Blue-Chip Stock",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/big-short-investor-locks-profits-171713434.html",
+      "published": "2026-11-10T17:17:13Z"
+    },
+    {
+      "title": "Caterpillar Is the Quiet Winner in Anthropic\u2019s IPO: a $3.4 Billion Generator Order",
+      "publisher": "TIKR",
+      "url": "https://www.tikr.com/blog/caterpillar-is-the-quiet-winner-in-anthropics-ipo-a-3-4-billion-generator-order?ref=yahoofinance&tlnk=yf-261110-pq5x5699",
+      "published": "2026-11-10T16:49:32Z"
+    },
+    {
+      "title": "Caterpillar Inc. (CAT) Posted a Record $20 Billion Quarter: Is the AI Power Boom Fueling Its Next Growth Phase?",
+      "publisher": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-inc-cat-posted-record-155820399.html",
+      "published": "2026-11-10T15:58:20Z"
+    },
+    {
+      "title": "NVIDIA, Caterpillar & Nike: Three Corporate Events That Could Move Markets",
+      "publisher": "Wall Street Horizon",
+      "url": "https://www.wallstreethorizon.com/blog/NVIDIA-Caterpillar--Nike-Three-Corporate-Events-That-Could-Move-Markets",
+      "published": "2026-11-10T15:18:56Z"
+    },
+    {
+      "title": "Michael Burry Trims Bet on This Heavy Equipment Stock After Puts Nearly Quadrupled",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/options/articles/michael-burry-trims-bet-heavy-151626875.html",
+      "published": "2026-11-10T15:16:26Z"
+    },
+    {
+      "title": "Spdr Dow Jones Industrial Average ETF (DIA) Buys $36 Million More GS on Friday",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-dow-jones-industrial-average-110530396.html",
+      "published": "2026-11-10T11:05:30Z"
+    },
+    {
+      "title": "Stock Market Today: Dow Jumps, These Stocks Test Entries; Warren Buffett Play Clears Buy Zone",
+      "publisher": "Investor's Business Daily",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-nvidia-stock-nvda-jensen-huang-probe/?src=A00220&yptr=yahoo",
+      "published": "2026-11-09T21:41:06Z"
+    },
+    {
+      "title": "Dow Adds 1,104 Points Even as Nvidia Sinks: Stock Market Today",
+      "publisher": "Kiplinger",
+      "url": "https://www.kiplinger.com/investing/stocks/dow-adds-1-104-points-even-as-nvidia-stock-sinks-stock-market-today",
+      "published": "2026-11-09T21:11:23Z"
+    }
+  ]
+}

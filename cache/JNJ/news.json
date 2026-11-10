@@ -1,0 +1,68 @@
+{
+  "ticker": "JNJ",
+  "dataset": "news",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:10Z",
+  "data": [
+    {
+      "title": "The Kiplinger Dividend 15: Our Favorite Dividend-Paying Stocks",
+      "publisher": "Kiplinger",
+      "url": "https://www.kiplinger.com/investing/stocks/601018/kiplinger-dividend-15-our-favorite-dividend-paying-stocks",
+      "published": "2026-11-10T16:58:05Z"
+    },
+    {
+      "title": "Is Current Price Of Stryker Stock A Strong Support?",
+      "publisher": "Trefis",
+      "url": "https://www.trefis.com/stock/syk/articles/623943/is-current-price-of-stryker-stock-a-strong-support/2026-11-10",
+      "published": "2026-11-10T16:48:06Z"
+    },
+    {
+      "title": "Johnson & Johnson Says Caplyta Improves Manic Symptoms in Second Phase 3 Study",
+      "publisher": "MT Newswires",
+      "url": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-says-caplyta-improves-152843856.html",
+      "published": "2026-11-10T15:28:43Z"
+    },
+    {
+      "title": "$300,000 in Duke Energy, Philip Morris and Johnson & Johnson: Here\u2019s What It Pays",
+      "publisher": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/10/300000-in-duke-energy-philip-morris-and-johnson-johnson-heres-what-it-pays/",
+      "published": "2026-11-10T15:17:38Z"
+    },
+    {
+      "title": "State of the tech market: Anthropic IPO and Nvidia CEO scandal are reshaping portfolios",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/state-of-the-tech-market-anthropic-ipo-and-nvidia-ceo-scandal-are-reshaping-portfolios-150759438.html",
+      "published": "2026-11-10T15:07:59Z"
+    },
+    {
+      "title": "No chair and 30-year tenures: Will Nvidia's board go soft on Jensen?",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/no-chair-and-30-year-tenures-will-nvidias-board-go-soft-on-jensen-150036535.html",
+      "published": "2026-11-10T15:00:36Z"
+    },
+    {
+      "title": "J&J eyes US nod for Caplyta in bipolar mania after second trial win",
+      "publisher": "Reuters",
+      "url": "https://finance.yahoo.com/healthcare/articles/j-j-eyes-us-nod-141125600.html",
+      "published": "2026-11-10T14:18:35Z"
+    },
+    {
+      "title": "Can You Still Buy Merck Stock Today?",
+      "publisher": "Trefis",
+      "url": "https://www.trefis.com/stock/mrk/articles/624061/can-you-still-buy-merck-stock-today/2026-11-10",
+      "published": "2026-11-10T13:11:28Z"
+    },
+    {
+      "title": "iShares MSCI USA Momentum Factor ETF (MTUM) Adds AMD and Micron on Nov. 6",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-msci-usa-momentum-factor-110606011.html",
+      "published": "2026-11-10T11:06:06Z"
+    },
+    {
+      "title": "Q3 Earnings Season Winners: 3 Companies Raising Guidance",
+      "publisher": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-season-winners-3-001200950.html",
+      "published": "2026-11-10T00:12:00Z"
+    }
+  ]
+}

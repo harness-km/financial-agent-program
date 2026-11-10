@@ -1,0 +1,36 @@
+{
+  "ticker": "AAPL",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:05Z",
+  "data": [
+    {
+      "fiscal_year": 2026,
+      "revenue": 478834000000,
+      "gross_profit": 233602000000,
+      "operating_income": 158063000000,
+      "net_income": 132175000000
+    },
+    {
+      "fiscal_year": 2025,
+      "revenue": 416161000000,
+      "gross_profit": 195201000000,
+      "operating_income": 133050000000,
+      "net_income": 112010000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 391035000000,
+      "gross_profit": 180683000000,
+      "operating_income": 123216000000,
+      "net_income": 93736000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 383285000000,
+      "gross_profit": 169148000000,
+      "operating_income": 114301000000,
+      "net_income": 96995000000
+    }
+  ]
+}

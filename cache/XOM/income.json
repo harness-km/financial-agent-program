@@ -1,0 +1,36 @@
+{
+  "ticker": "XOM",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:09Z",
+  "data": [
+    {
+      "fiscal_year": 2025,
+      "revenue": 323905000000,
+      "gross_profit": 71240000000,
+      "operating_income": 33938000000,
+      "net_income": 28844000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 339247000000,
+      "gross_profit": 76742000000,
+      "operating_income": 39652000000,
+      "net_income": 33680000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 334697000000,
+      "gross_profit": 84142000000,
+      "operating_income": 44461000000,
+      "net_income": 36010000000
+    },
+    {
+      "fiscal_year": 2022,
+      "revenue": 398675000000,
+      "gross_profit": 103067000000,
+      "operating_income": 64028000000,
+      "net_income": 55740000000
+    }
+  ]
+}

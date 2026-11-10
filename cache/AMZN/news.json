@@ -1,0 +1,68 @@
+{
+  "ticker": "AMZN",
+  "dataset": "news",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:08Z",
+  "data": [
+    {
+      "title": "Alphabet makes $10 billion bet on Anthropic's massive IPO",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-makes-10-billion-bet-185448045.html",
+      "published": "2026-11-10T18:54:48Z"
+    },
+    {
+      "title": "The Midterms' Biggest AI Losers Aren't the Big Spenders. They're the Borrowers.",
+      "publisher": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/10/the-midterms-biggest-ai-losers-arent-the-big-spend/",
+      "published": "2026-11-10T18:50:00Z"
+    },
+    {
+      "title": "5 AI Stock Picks and Performance of Billionaire Stanley Druckenmiller",
+      "publisher": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/5-ai-stock-picks-performance-183306016.html",
+      "published": "2026-11-10T18:33:06Z"
+    },
+    {
+      "title": "Amazon Stock Climbs as Ring Unveils a Security Drone That Flies Around Your Home",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-stock-climbs-ring-unveils-182118334.html",
+      "published": "2026-11-10T18:21:18Z"
+    },
+    {
+      "title": "Amazon Stocks Rise 1.15% as Anthropic IPO Range Puts a Price on Its Stake",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-stocks-rise-1-15-175609753.html",
+      "published": "2026-11-10T17:56:09Z"
+    },
+    {
+      "title": "The Demise of Data Center Stocks Has Been Greatly Exaggerated. These Earnings Show Why.",
+      "publisher": "Barrons.com",
+      "url": "https://www.barrons.com/articles/data-center-stocks-exaggerated-demise-csquare-earnings-dadaceb8?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-11-10T17:51:00Z"
+    },
+    {
+      "title": "Prediction: Amazon Stock Could Be Poised for Its Next Big Rally in 2027",
+      "publisher": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/10/prediction-amazon-stock-could-be-poised-for-its-next-big-rally-in-2027/",
+      "published": "2026-11-10T17:33:47Z"
+    },
+    {
+      "title": "Anthropic Reveals Stunning $1 Trillion IPO Valuation",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-reveals-stunning-1-trillion-172813259.html",
+      "published": "2026-11-10T17:28:13Z"
+    },
+    {
+      "title": "Uber Becomes McDonald\u2019s \u201cPreferred Delivery Partner\u201d in 14 Markets as Its DoorDash Fight Widens",
+      "publisher": "TIKR",
+      "url": "https://www.tikr.com/blog/uber-becomes-mcdonalds-preferred-delivery-partner-in-14-markets-as-its-doordash-fight-widens?ref=yahoofinance&tlnk=yf-261110-7fj62wvx",
+      "published": "2026-11-10T17:27:10Z"
+    },
+    {
+      "title": "Dan Ives Says Wall Street Is Underestimating 2 Major Tech Stocks",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/technology/articles/dan-ives-says-wall-street-172533253.html",
+      "published": "2026-11-10T17:25:33Z"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "ticker": "XOM",
+  "dataset": "news",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:09Z",
+  "data": [
+    {
+      "title": "Oil Prices Just Fell to Their Lowest Since August as Trump Says the Iran War Is \u2018Effectively Over\u2019",
+      "publisher": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/10/oil-prices-just-fell-to-their-lowest-since-august-as-trump-says-the-iran-war-is-effectively-over/",
+      "published": "2026-11-10T18:34:53Z"
+    },
+    {
+      "title": "Is Chevron Stock A Real Bargain?",
+      "publisher": "Trefis",
+      "url": "https://www.trefis.com/stock/cvx/articles/623939/is-chevron-stock-a-real-bargain/2026-11-10",
+      "published": "2026-11-10T18:05:03Z"
+    },
+    {
+      "title": "Enbridge vs. ExxonMobil: Which Energy Stock Is a Better Buy for 2027?",
+      "publisher": "Motley Fool",
+      "url": "https://www.fool.com/coverage/better-buy/2026/11/10/enbridge-vs-exxonmobil-which-energy-stock-is-a-better-buy-for-2027/",
+      "published": "2026-11-10T17:15:02Z"
+    },
+    {
+      "title": "How Much Do You Really Need Invested to Replace a $175,000 Salary With Dividends?",
+      "publisher": "24/7 Wall St.",
+      "url": "https://247wallst.com/personal-finance/2026/11/10/how-much-do-you-really-need-invested-to-replace-a-175000-salary-with-dividends/",
+      "published": "2026-11-10T16:49:26Z"
+    },
+    {
+      "title": "Democrats Take Congress: 4 Dividend Stocks From Oil to Telecom Worth Buying",
+      "publisher": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/10/democrats-take-congress-4-dividend-stocks-from-oil-to-telecom-worth-buying/",
+      "published": "2026-11-10T14:32:05Z"
+    },
+    {
+      "title": "Sector Update: Energy Stocks Fall Pre-Bell Tuesday",
+      "publisher": "MT Newswires",
+      "url": "https://finance.yahoo.com/energy/articles/sector-energy-stocks-fall-pre-141948947.html",
+      "published": "2026-11-10T14:19:48Z"
+    },
+    {
+      "title": "Chevron Is Doubling Venezuela Production. ExxonMobil Says It's Not in a Rush. Who's Right?",
+      "publisher": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/10/chevron-double-venezuela-production-exxon-stock/",
+      "published": "2026-11-10T13:50:00Z"
+    },
+    {
+      "title": "Meet Wall Street\u2019s Safest Dividend Stocks: 3 Companies That Have Paid Through Recessions, Wars and Market Crashes",
+      "publisher": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/10/meet-wall-streets-safest-dividend-stocks-3-companies-that-have-paid-through-recessions-wars-and-market-crashes/",
+      "published": "2026-11-10T13:31:11Z"
+    },
+    {
+      "title": "Should You Buy Exxon Mobil Stock For Its Cash?",
+      "publisher": "Trefis",
+      "url": "https://www.trefis.com/stock/xom/articles/623935/should-you-buy-exxon-mobil-stock-for-its-cash/2026-11-10",
+      "published": "2026-11-10T13:05:26Z"
+    },
+    {
+      "title": "Market Chatter: Exxon Mobil Signs MoU With Venezuela to Evaluate Oil Investment Opportunities",
+      "publisher": "MT Newswires",
+      "url": "https://finance.yahoo.com/energy/articles/market-chatter-exxon-mobil-signs-105240626.html",
+      "published": "2026-11-10T10:52:40Z"
+    }
+  ]
+}

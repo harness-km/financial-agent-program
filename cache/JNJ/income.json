@@ -1,0 +1,36 @@
+{
+  "ticker": "JNJ",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:10Z",
+  "data": [
+    {
+      "fiscal_year": 2025,
+      "revenue": 94193000000,
+      "gross_profit": 63937000000,
+      "operating_income": 25596000000,
+      "net_income": 26804000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 88821000000,
+      "gross_profit": 61350000000,
+      "operating_income": 21249000000,
+      "net_income": 14066000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 85159000000,
+      "gross_profit": 58606000000,
+      "operating_income": 22009000000,
+      "net_income": 35153000000
+    },
+    {
+      "fiscal_year": 2022,
+      "revenue": 79990000000,
+      "gross_profit": 55394000000,
+      "operating_income": 21013000000,
+      "net_income": 17941000000
+    }
+  ]
+}

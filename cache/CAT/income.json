@@ -1,0 +1,36 @@
+{
+  "ticker": "CAT",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:11Z",
+  "data": [
+    {
+      "fiscal_year": 2025,
+      "revenue": 67589000000,
+      "gross_profit": 21478000000,
+      "operating_income": 11151000000,
+      "net_income": 8884000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 64809000000,
+      "gross_profit": 23324000000,
+      "operating_income": 13072000000,
+      "net_income": 10792000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 67060000000,
+      "gross_profit": 23263000000,
+      "operating_income": 12966000000,
+      "net_income": 10335000000
+    },
+    {
+      "fiscal_year": 2022,
+      "revenue": 59427000000,
+      "gross_profit": 17512000000,
+      "operating_income": 8829000000,
+      "net_income": 6705000000
+    }
+  ]
+}

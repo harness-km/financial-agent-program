@@ -1,0 +1,36 @@
+{
+  "ticker": "GOOGL",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:07Z",
+  "data": [
+    {
+      "fiscal_year": 2025,
+      "revenue": 402836000000,
+      "gross_profit": 240301000000,
+      "operating_income": 129039000000,
+      "net_income": 132170000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 350018000000,
+      "gross_profit": 203712000000,
+      "operating_income": 112390000000,
+      "net_income": 100118000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 307394000000,
+      "gross_profit": 174062000000,
+      "operating_income": 84293000000,
+      "net_income": 73795000000
+    },
+    {
+      "fiscal_year": 2022,
+      "revenue": 282836000000,
+      "gross_profit": 156633000000,
+      "operating_income": 74842000000,
+      "net_income": 59972000000
+    }
+  ]
+}

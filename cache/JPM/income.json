@@ -1,0 +1,36 @@
+{
+  "ticker": "JPM",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:08Z",
+  "data": [
+    {
+      "fiscal_year": 2025,
+      "revenue": 181847000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 57048000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 169439000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 58471000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 154952000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 49552000000
+    },
+    {
+      "fiscal_year": 2022,
+      "revenue": 127727000000,
+      "gross_profit": null,
+      "operating_income": null,
+      "net_income": 37676000000
+    }
+  ]
+}

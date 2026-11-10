@@ -1,0 +1,68 @@
+{
+  "ticker": "WMT",
+  "dataset": "news",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:11Z",
+  "data": [
+    {
+      "title": "Walmart Unlikely to Deliver 'Significant' Upside Surprise; Target Set for Quarterly Beat, RBC Says",
+      "publisher": "MT Newswires",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-unlikely-deliver-apos-significant-184947850.html",
+      "published": "2026-11-10T18:49:47Z"
+    },
+    {
+      "title": "The Kiplinger Dividend 15: Our Favorite Dividend-Paying Stocks",
+      "publisher": "Kiplinger",
+      "url": "https://www.kiplinger.com/investing/stocks/601018/kiplinger-dividend-15-our-favorite-dividend-paying-stocks",
+      "published": "2026-11-10T16:58:05Z"
+    },
+    {
+      "title": "How These 5 Big-Box Retailers Compete for the Same Shopper",
+      "publisher": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/10/how-these-5-big-box-retailers-compete-for-the-same/",
+      "published": "2026-11-10T16:05:00Z"
+    },
+    {
+      "title": "Jensen Huang\u2019s net worth drops $6.5 billion as Nvidia stock slides in the fallout of spy affair scandal investigation",
+      "publisher": "Fortune",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-net-worth-drops-154052623.html",
+      "published": "2026-11-10T15:40:52Z"
+    },
+    {
+      "title": "Walmart Upgraded Ahead Of Earnings; These Retail Stocks Are Breakout Ready",
+      "publisher": "Investor's Business Daily",
+      "url": "https://www.investors.com/news/walmart-target-five-below-retail-stocks-to-buy-earnings/?src=A00220&yptr=yahoo",
+      "published": "2026-11-10T14:43:32Z"
+    },
+    {
+      "title": "Amazon\u2019s AWS Strength Outpowers Its Tailwainds So I Accumulate",
+      "publisher": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/10/amazons-aws-strength-outpowers-its-tailwainds-so-i-accumulate/",
+      "published": "2026-11-10T13:45:13Z"
+    },
+    {
+      "title": "What Moved Best Buy Stock?",
+      "publisher": "Trefis",
+      "url": "https://www.trefis.com/stock/bby/articles/624103/what-moved-best-buy-stock/2026-11-10",
+      "published": "2026-11-10T13:11:24Z"
+    },
+    {
+      "title": "Walmart's Sam's Club Sees Higher Traffic: Can Momentum Last?",
+      "publisher": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/walmarts-sams-club-sees-higher-130800794.html",
+      "published": "2026-11-10T13:08:00Z"
+    },
+    {
+      "title": "State Street Consumer Staples SPDR (XLP) Sells Walmart and Costco on Nov. 6",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-staples-spdr-110619139.html",
+      "published": "2026-11-10T11:06:19Z"
+    },
+    {
+      "title": "51 ETFs Add to Walmart (WMT) Holdings on Friday",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/51-etfs-add-walmart-wmt-110115705.html",
+      "published": "2026-11-10T11:01:15Z"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ticker": "WMT",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:10Z",
+  "data": [
+    {
+      "fiscal_year": 2026,
+      "revenue": 713163000000,
+      "gross_profit": 177768000000,
+      "operating_income": 29825000000,
+      "net_income": 21893000000
+    },
+    {
+      "fiscal_year": 2025,
+      "revenue": 680985000000,
+      "gross_profit": 169232000000,
+      "operating_income": 29348000000,
+      "net_income": 19436000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 648125000000,
+      "gross_profit": 157983000000,
+      "operating_income": 27012000000,
+      "net_income": 15511000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 611289000000,
+      "gross_profit": 147568000000,
+      "operating_income": 20428000000,
+      "net_income": 11680000000
+    }
+  ]
+}

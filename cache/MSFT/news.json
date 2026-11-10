@@ -1,0 +1,68 @@
+{
+  "ticker": "MSFT",
+  "dataset": "news",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:06Z",
+  "data": [
+    {
+      "title": "Anthropic launches Meetings, Whiteboards, Sheets, Data ahead of IPO",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/article/anthropic-launches-meetings-whiteboards-sheets-data-ahead-of-ipo-190548601.html",
+      "published": "2026-11-10T17:31:19Z"
+    },
+    {
+      "title": "Update: Market Chatter: Microsoft Urges Trump to Scrap Expected Ban on Chinese Data Center Tech",
+      "publisher": "MT Newswires",
+      "url": "https://finance.yahoo.com/technology/ai/articles/market-chatter-microsoft-urges-trump-185620663.html",
+      "published": "2026-11-10T18:56:20Z"
+    },
+    {
+      "title": "The Midterms' Biggest AI Losers Aren't the Big Spenders. They're the Borrowers.",
+      "publisher": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/10/the-midterms-biggest-ai-losers-arent-the-big-spend/",
+      "published": "2026-11-10T18:50:00Z"
+    },
+    {
+      "title": "Microsoft Pushes Trump to Halt a Ban on Chinese Optics. Coherent Is Already \u201cBasically Booked Out\u201d",
+      "publisher": "TIKR",
+      "url": "https://www.tikr.com/blog/microsoft-pushes-trump-to-halt-a-ban-on-chinese-optics-coherent-is-already-basically-booked-out?ref=yahoofinance&tlnk=yf-261110-6mv25c54",
+      "published": "2026-11-10T18:22:45Z"
+    },
+    {
+      "title": "Google, Nvidia and Microsoft \u201cLiterally Feeding Themselves Money\u201d with $26 Billion Anthropic IPO Buy",
+      "publisher": "TIKR",
+      "url": "https://www.tikr.com/blog/google-nvidia-and-microsoft-literally-feeding-themselves-money-with-26-billion-anthropic-ipo-buy?ref=yahoofinance&tlnk=yf-261110-4fh7rrpp",
+      "published": "2026-11-10T18:21:34Z"
+    },
+    {
+      "title": "Anthropic IPO Could Value Claude Maker at $1.4 Trillion",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-could-value-claude-182049858.html",
+      "published": "2026-11-10T18:20:49Z"
+    },
+    {
+      "title": "Microsoft and IBM Unite for a Giant AI Agent Push",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-ibm-unite-giant-ai-180648770.html",
+      "published": "2026-11-10T18:06:48Z"
+    },
+    {
+      "title": "Microsoft stock falls  as Anthropic takes aim at Excel and workplace software",
+      "publisher": "Investing.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-stock-falls-anthropic-takes-180433197.html",
+      "published": "2026-11-10T18:04:33Z"
+    },
+    {
+      "title": "Alphabet Stocks Rise 0.34% as Google Lines Up $10 Billion Anthropic Stake Purchase",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stocks-rise-0-34-180311251.html",
+      "published": "2026-11-10T18:03:11Z"
+    },
+    {
+      "title": "IREN Sinks 10% as Analyst Target Cuts Pile Up After Microsoft Delay; Cipher Digital Falls 6%, TeraWulf Slides 2%",
+      "publisher": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/10/iren-sinks-10-as-analyst-target-cuts-pile-up-after-microsoft-delay-cipher-digital-falls-6-terawulf-slides-2/",
+      "published": "2026-11-10T18:02:24Z"
+    }
+  ]
+}

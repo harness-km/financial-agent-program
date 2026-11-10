@@ -1,0 +1,68 @@
+{
+  "ticker": "NVDA",
+  "dataset": "news",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:07Z",
+  "data": [
+    {
+      "title": "Alleged plot to spy on Jensen Huang: Why it's bullish for AI.",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/alleged-plot-to-spy-on-jensen-huang-why-its-bullish-for-ai-182150462.html",
+      "published": "2026-11-10T18:21:50Z"
+    },
+    {
+      "title": "Top strategist: Nvidia CEO Jensen Huang's affair highlights key risk for tech companies",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/article/top-strategist-nvidia-ceo-jensen-huangs-affair-highlights-key-risk-for-tech-companies-184212599.html",
+      "published": "2026-11-10T18:17:05Z"
+    },
+    {
+      "title": "Nvidia stock drops 6%, extending decline on report alleged Chinese spy linked to Nvidia CEO aided $7.5 billion in China chip shipments",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/article/nvidia-stock-drops-3-extending-decline-on-report-alleged-chinese-spy-linked-to-nvidia-ceo-aided-75-billion-in-china-chip-shipments-152654028.html",
+      "published": "2026-11-10T15:24:21Z"
+    },
+    {
+      "title": "Goldman Sachs calls chip stocks 'oversold.' Here are the names it says to buy.",
+      "publisher": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/article/goldman-sachs-calls-chip-stocks-oversold-here-are-the-names-it-says-to-buy-165654250.html",
+      "published": "2026-11-10T16:53:14Z"
+    },
+    {
+      "title": "Tech investors need to 'zoom out' and look at the 'big picture' this week",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/tech-investors-need-to-zoom-out-and-look-at-the-big-picture-this-week-164246983.html",
+      "published": "2026-11-10T16:42:46Z"
+    },
+    {
+      "title": "Why analysts aren't trying to ruffle Nvidia's feathers amid CEO scandal",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/why-analysts-arent-trying-to-ruffle-nvidias-feathers-amid-ceo-scandal-151507913.html",
+      "published": "2026-11-10T15:15:07Z"
+    },
+    {
+      "title": "State of the tech market: Anthropic IPO and Nvidia CEO scandal are reshaping portfolios",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/state-of-the-tech-market-anthropic-ipo-and-nvidia-ceo-scandal-are-reshaping-portfolios-150759438.html",
+      "published": "2026-11-10T15:07:59Z"
+    },
+    {
+      "title": "No chair and 30-year tenures: Will Nvidia's board go soft on Jensen?",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/no-chair-and-30-year-tenures-will-nvidias-board-go-soft-on-jensen-150036535.html",
+      "published": "2026-11-10T15:00:36Z"
+    },
+    {
+      "title": "Fed's Waller backs a rate hike, Nvidia stock under pressure, Paul McCartney becomes a billionaire",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/feds-waller-backs-a-rate-hike-nvidia-stock-under-pressure-paul-mccartney-becomes-a-billionaire-143932192.html",
+      "published": "2026-11-10T14:39:32Z"
+    },
+    {
+      "title": "AI chip exports to China and oversight bills gain momentum in Congress",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/ai-chip-exports-to-china-and-oversight-bills-gain-momentum-in-congress-143900242.html",
+      "published": "2026-11-10T14:39:00Z"
+    }
+  ]
+}

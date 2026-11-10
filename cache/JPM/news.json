@@ -1,0 +1,68 @@
+{
+  "ticker": "JPM",
+  "dataset": "news",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:09Z",
+  "data": [
+    {
+      "title": "Is Goldman Sachs an Attractive Investment Option Heading into 2027?",
+      "publisher": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-attractive-investment-option-175400446.html",
+      "published": "2026-11-10T17:54:00Z"
+    },
+    {
+      "title": "Financial Services Roundup: Market Talk",
+      "publisher": "The Wall Street Journal",
+      "url": "https://www.wsj.com/business/financial-services-roundup-market-talk-1f48b25a?siteid=yhoof2&yptr=yahoo",
+      "published": "2026-11-10T17:32:00Z"
+    },
+    {
+      "title": "JPMorgan May Sell $2 Billion of Qualtrics Debt at About 85 Cents on the Dollar",
+      "publisher": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/10/jpmorgan-may-sell-2-billion-of-qualtrics-debt-at-about-85-cents-on-the-dollar/",
+      "published": "2026-11-10T17:02:39Z"
+    },
+    {
+      "title": "JPMorgan reaffirms its top mid-cap pick in telecom",
+      "publisher": "Investing.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-reaffirms-top-mid-cap-165343042.html",
+      "published": "2026-11-10T16:53:43Z"
+    },
+    {
+      "title": "A $13 Billion Fund Dumps These 3 Stocks",
+      "publisher": "TIKR",
+      "url": "https://www.tikr.com/blog/a-13-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261110-mf5wr58f",
+      "published": "2026-11-10T16:51:44Z"
+    },
+    {
+      "title": "JPMorgan Cut Its IREN Target to $55. It Still Sees 148% Upside",
+      "publisher": "TIKR",
+      "url": "https://www.tikr.com/blog/jpmorgan-cut-its-iren-target-to-55-it-still-sees-148-upside?ref=yahoofinance&tlnk=yf-261110-7vwcm6xp",
+      "published": "2026-11-10T16:37:12Z"
+    },
+    {
+      "title": "Vanguard Inks $4B of Private Debt for Altruist Deal",
+      "publisher": "Wealth Management",
+      "url": "https://www.wealthmanagement.com/financial-technology/vanguard-inks-4-billion-of-private-debt-for-altruist-deal",
+      "published": "2026-11-10T16:11:25Z"
+    },
+    {
+      "title": "JPMorgan Chase & Co. (JPM) is Attracting Investor Attention: Here is What You Should Know",
+      "publisher": "Zacks",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-co-jpm-attracting-130002693.html",
+      "published": "2026-11-10T13:00:02Z"
+    },
+    {
+      "title": "Anthropic Plans IPO Live Stream With Amodei, JPMorgan CEO Dimon",
+      "publisher": "Bloomberg",
+      "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-plans-ipo-live-stream-031454541.html",
+      "published": "2026-11-10T03:14:54Z"
+    },
+    {
+      "title": "What State Street Fin. Select Sector SPDR (XLF) Sold: Berkshire Leads on Friday",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/state-street-fin-select-sector-110451080.html",
+      "published": "2026-11-10T11:04:51Z"
+    }
+  ]
+}

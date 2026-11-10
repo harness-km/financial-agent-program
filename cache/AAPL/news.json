@@ -1,0 +1,68 @@
+{
+  "ticker": "AAPL",
+  "dataset": "news",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:06Z",
+  "data": [
+    {
+      "title": "New iOS exploit could let apps steal crypto keys",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/ios-exploit-could-let-apps-190000953.html",
+      "published": "2026-11-10T19:00:00Z"
+    },
+    {
+      "title": "No chair and 30-year tenures: Will Nvidia's board go soft on Jensen?",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/no-chair-and-30-year-tenures-will-nvidias-board-go-soft-on-jensen-150036535.html",
+      "published": "2026-11-10T15:00:36Z"
+    },
+    {
+      "title": "Jim Cramer questions his famous Nvidia investing rule",
+      "publisher": "TheStreet",
+      "url": "https://www.thestreet.com/investing/stocks/cramer-nvidia-investing-strategy-huang-scandal",
+      "published": "2026-11-10T17:46:32Z"
+    },
+    {
+      "title": "Apple Just Hit $5 Trillion. Its \u201cBiggest Competition\u201d Is a SpaceX Phone, Says Gene Munster",
+      "publisher": "TIKR",
+      "url": "https://www.tikr.com/blog/apple-just-hit-5-trillion-its-biggest-competition-is-a-spacex-phone-says-gene-munster?ref=yahoofinance&tlnk=yf-261110-3p7pmqj7",
+      "published": "2026-11-10T17:39:51Z"
+    },
+    {
+      "title": "TSMC Just Delivered the AI Growth Shock Wall Street Was Waiting For",
+      "publisher": "GuruFocus.com",
+      "url": "https://finance.yahoo.com/technology/ai/articles/tsmc-just-delivered-ai-growth-172738565.html",
+      "published": "2026-11-10T17:27:38Z"
+    },
+    {
+      "title": "Apple Is Holding Strong While Big Tech Sells Off. Is It Next?",
+      "publisher": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/10/apple-is-holding-strong-big-tech-sells-off-next/",
+      "published": "2026-11-10T16:54:13Z"
+    },
+    {
+      "title": "A glossary to help understand what happens in an initial public offering",
+      "publisher": "Associated Press",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/glossary-help-understand-happens-initial-163948073.html",
+      "published": "2026-11-10T16:39:48Z"
+    },
+    {
+      "title": "Apple Inc. (AAPL) Rallied 15% as Investors Reassessed Its Growth: What\u2019s Next for the Stock?",
+      "publisher": "Insider Monkey",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/apple-inc-aapl-rallied-15-155610465.html",
+      "published": "2026-11-10T15:56:10Z"
+    },
+    {
+      "title": "These 3 Dividend Stocks Pay Growing Payouts. Here's Why Buybacks Could Be the Real Prize.",
+      "publisher": "Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/10/these-3-dividend-stocks-pay-growing-payouts-heres/",
+      "published": "2026-11-10T15:35:00Z"
+    },
+    {
+      "title": "State of the tech market: Anthropic IPO and Nvidia CEO scandal are reshaping portfolios",
+      "publisher": "Yahoo Finance Video",
+      "url": "https://finance.yahoo.com/video/state-of-the-tech-market-anthropic-ipo-and-nvidia-ceo-scandal-are-reshaping-portfolios-150759438.html",
+      "published": "2026-11-10T15:07:59Z"
+    }
+  ]
+}

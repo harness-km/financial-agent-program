@@ -1,0 +1,36 @@
+{
+  "ticker": "AMZN",
+  "dataset": "income",
+  "source": "yfinance",
+  "fetched_at": "2026-11-10T19:09:07Z",
+  "data": [
+    {
+      "fiscal_year": 2025,
+      "revenue": 716924000000,
+      "gross_profit": 360510000000,
+      "operating_income": 79975000000,
+      "net_income": 77670000000
+    },
+    {
+      "fiscal_year": 2024,
+      "revenue": 637959000000,
+      "gross_profit": 311671000000,
+      "operating_income": 68593000000,
+      "net_income": 59248000000
+    },
+    {
+      "fiscal_year": 2023,
+      "revenue": 574785000000,
+      "gross_profit": 270046000000,
+      "operating_income": 36852000000,
+      "net_income": 30425000000
+    },
+    {
+      "fiscal_year": 2022,
+      "revenue": 513983000000,
+      "gross_profit": 225152000000,
+      "operating_income": 12248000000,
+      "net_income": -2722000000
+    }
+  ]
+}
