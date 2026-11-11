@@ -119,9 +119,7 @@ def load_specs(only: str | None) -> list[Spec]:
 
 
 def gh(*args: str) -> str:
-    result = subprocess.run(
-        ["gh", *args], capture_output=True, text=True, check=False, timeout=60
-    )
+    result = subprocess.run(["gh", *args], capture_output=True, text=True, check=False, timeout=60)
     if result.returncode != 0:
         raise RuntimeError(f"gh {' '.join(args)} failed:\n{result.stderr.strip()}")
     return result.stdout

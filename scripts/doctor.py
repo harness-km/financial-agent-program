@@ -71,7 +71,7 @@ def check_imports() -> None:
         "Dependencies",
         "all present"
         if not missing
-        else f"missing {', '.join(missing)} — run: pip install -e \".[dev]\"",
+        else f'missing {", ".join(missing)} — run: pip install -e ".[dev]"',
     )
 
 

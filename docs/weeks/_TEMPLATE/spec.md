@@ -27,8 +27,7 @@ Precise enough to prompt from without inventing anything. Function names,
 signatures, file paths, return shapes, error behaviour.
 
 ```python
-def example(ticker: str, years: int = 3) -> list[dict]:
-    ...
+def example(ticker: str, years: int = 3) -> list[dict]: ...
 ```
 
 State what the function must raise and when. An assistant will invent an answer
