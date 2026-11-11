@@ -24,6 +24,11 @@ Name the alternative you are rejecting — doing nothing, buying a vendor produc
 hiring two analysts — and why this beats it. A recommendation with no rejected
 alternative has not been thought through.
 
+**The gap.** One thing the firm needs that this capability does not do, and what
+closing it would actually take. Specific, traceable to the brief, and honest
+about cost — "not perfect yet" is not a gap. This is the paragraph a vendor would
+not write, which is why it is the one that gets believed.
+
 ### Infrastructure and cost
 
 What must exist to run it: compute, data access, network egress, identity and

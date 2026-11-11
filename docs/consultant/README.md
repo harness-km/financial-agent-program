@@ -47,6 +47,34 @@ Not every lens is equally heavy every sprint. Say so when one is thin rather tha
 padding it — a one-line answer with a reason is a better consulting instinct
 than a paragraph of filler.
 
+## Name the gap
+
+Every increment also names one thing the client needs that the capability you
+just built does not do.
+
+This is not modesty. Identifying what a technology does not reach is most of
+what separates a consultant from a vendor, and it is the part that cannot be
+done by anyone who has not seen the system work. You have an advantage here that
+an outside adviser does not: you know exactly where yours stops.
+
+A gap is specific, traceable to the brief, and honest about cost. "It is not
+perfect yet" is not a gap. "The desk's forty rediscovery requests a week are
+mostly asking what we already concluded about a company, and this system answers
+from public sources rather than from the firm's own notes — so it reduces the
+effort per request without reducing the number of them" is a gap.
+
+The largest one is in the brief from the start and the programme never closes
+it. Meridian Harbour has twenty years of research notes in SharePoint with
+inconsistent naming and no index. Search over those notes is the most valuable
+thing anyone could build the firm, and `part-2-outline.md` explains why this
+programme does not: the index is the easy part, and deciding which of four notes
+on a company is current is a data governance project rather than an agent one.
+
+Being able to make that argument — to a managing partner who has read that
+retrieval is solved — is worth more than a working prototype of it would be.
+Which is the general case: the gap you can describe precisely is the one the
+client will pay you to close.
+
 ## The eight increments
 
 Each names the artifact it is reasoning about.

@@ -3,7 +3,7 @@
 Pre-fetched data for the program's ten tickers, committed to the repository on
 purpose.
 
-```
+```text
 cache/
 └── AAPL/
     ├── income.json

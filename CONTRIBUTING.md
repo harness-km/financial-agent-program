@@ -18,7 +18,7 @@ The same principle applies to the backlog. Each week's spec lives in
 
 One branch per week's assignment, named for the week:
 
-```
+```text
 week-04-<your-github-handle>
 ```
 
@@ -30,7 +30,7 @@ instructor. Do not commit to them.
 [Conventional Commits](https://www.conventionalcommits.org/). The type matters
 more than the formatting:
 
-```
+```text
 feat(tools): add income statement tool
 fix(agent): stop loop re-calling the same tool
 docs(week-05): add compaction spec

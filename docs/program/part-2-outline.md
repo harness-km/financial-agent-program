@@ -29,13 +29,39 @@ That is the argument for building it in week 4 rather than week 14. A graph has
 more places to go wrong than a loop, and a system where every node implements its
 own controls is a system where they are implemented differently.
 
+## There is no index, and that is deliberate
+
+Week 11 builds embeddings, a similarity threshold and relevance filtering. It does
+not build retrieval over a corpus: no ingestion, no chunking strategy, no vector
+store, nothing persisted between runs. Everything your system scores was fetched
+seconds earlier.
+
+If you have wired a RAG node in a workflow tool, that will feel like a gap. It is
+one, and it is the client's gap rather than ours. Meridian Harbour has twenty
+years of research notes in SharePoint with inconsistent naming, no data platform,
+and no single place recording what the desk currently thinks about a company —
+and forty requests a week that are mostly rediscovery of things it already knew.
+Search over those notes is the most valuable thing anyone could build them.
+
+We do not build it, for a reason worth being able to state: retrieval over twenty
+years of inconsistently named documents is a data quality and governance project
+with an agent on the end of it, not an agent project. The index is the easy part.
+Deciding which of four notes on the same company is current, who may see which
+client's file, and what happens when a 2009 note contradicts a 2025 one is the
+work, and it is longer than this programme.
+
+So the mechanism is yours by week 11 — embedding and thresholding a stored
+document is the same code as embedding and thresholding a fetched page — and
+naming the gap is a consultant-track deliverable rather than a build one. See
+`docs/consultant/README.md`.
+
 ## At a glance
 
 | Week | Focus | What you build | Security criterion |
 | --- | --- | --- | --- |
 | 9 | When one loop is not enough | A three-node graph | State validated at every node boundary |
 | 10 | Research as a pipeline | Query decomposition and search | Pre-tool hook enforces a domain allowlist; private addresses refused |
-| 11 | Grounding beats cleverness | Fetching, filtering, a cited report | Every claim carries a resolvable source |
+| 11 | Grounding beats cleverness | Fetching, filtering, a cited report from filings | Every claim carries a resolvable source |
 | 12 | The graph | Planner plus parallel researchers | Pre-tool hook enforces per-node credential scope and rate limits |
 | 13 | Critics, bounds and the human gate | Fact-checker with a cap, approval gate | Hooks record every verdict and approval; a skipped gate is visible |
 | 14 | The Model Context Protocol | Your Part 1 agent as a tool | MCP calls traverse the same hooks; out-of-scope requests refused |
@@ -103,13 +129,26 @@ an audit requirement rather than a courtesy. The post-tool hook is a natural
 place to attach source metadata to everything that enters context, so that
 tracing a claim later is a lookup rather than an investigation.
 
+This is also the week a primary source arrives. Until now every number came from
+the cache or from whatever a search engine returned; from here you fetch company
+filings from SEC EDGAR, which is free, needs no key, and is the document the
+number in a news article was derived from. Grounding a claim in the filing rather
+than in an article about the filing is the difference between a citation an
+adviser can defend and one they can only pass along.
+
+Filings are also long enough to break naive context handling, which is why this
+week sits after week 5 rather than before it. A 10-K will not fit, so you select
+from it — and selecting is the same embedding-and-threshold operation you are
+already building, applied to one long document instead of twenty short pages.
+
 Reading: `skills/context_manager.py` and `curator.py`.
 
-Build: a cited mini-report. Produce it with and without the relevance filter and
-explain the difference.
+Build: a cited mini-report drawing on both web pages and one EDGAR filing.
+Produce it with and without the relevance filter and explain the difference.
 
 Done when: every claim in the output resolves to a source that was actually
-fetched, and an unsourced claim fails your own test.
+fetched, an unsourced claim fails your own test, and at least one claim resolves
+to a filing rather than to commentary about one.
 
 ## Week 12 — The graph
 

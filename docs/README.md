@@ -17,12 +17,20 @@ The per-week criteria are listed in the two outlines.
 
 ## Each week
 
-`weeks/week-NN/` holds four files:
+`weeks/week-NN/` holds two files:
 
-- `README.md` — the week page: what you will learn and build
-- `spec.md` — the assignment, precise enough to prompt from
-- `concepts.md` — session notes and the ideas behind it
-- `reference-reading.md` — which files in the reference projects to read
+- `README.md` — the week page: what changes this week, and what you will have at
+  the end of it
+- `spec.md` — the assignment, precise enough to prompt from, including the
+  reference reading and the week's security criterion
+
+The spec is deliberately self-contained, because `scripts/seed_issues.py` turns
+it into that week's GitHub issue verbatim. Anything split into a separate file
+stops being in front of the person doing the work.
+
+Session notes, where a week produces any worth keeping, are added afterwards as
+`concepts.md`. They are not promised in advance: notes that exist before the
+session happened are not notes.
 
 ## The consultant track
 
