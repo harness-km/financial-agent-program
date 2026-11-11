@@ -47,6 +47,8 @@ closes sprint 1.
 
 - `python scripts/doctor.py` printing PASS on every line, pasted into the setup
   thread in Discussions
+- `pytest tests/week_01` passing — 108 tests, none of which you wrote, all of
+  which check your clone rather than your work
 - Three traces from the demo agent, for three questions of different shapes
 - Five sentences on where those three paths diverged and why, in a submission post
 - No credential anywhere in your clone, and a one-sentence answer to why
@@ -57,7 +59,8 @@ See [`spec.md`](spec.md) for exactly what each of those has to contain.
 ## If you are behind
 
 There is nothing to catch up on except the environment, and that is the one thing
-you cannot skip — week 2 assumes it.
+you cannot skip — week 2 assumes it. `pytest tests/week_01` tells you whether it
+is sound in under a second.
 
 If `doctor.py` reports a failure, post the whole output to the setup thread rather
 than fixing it quietly. Most failures have a known one-line answer and somebody
