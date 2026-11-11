@@ -132,10 +132,17 @@ published price. Doing that arithmetic once, manually, is worth more than a look
 
 ### Putting it together
 
-In your notebook: build `messages` and `tools`, call `call_model`, `parse_tool_call` the response
-with `allowed={"get_latest_close"}`, `run_tool_call` it with
+`starters/week-02.ipynb` is where the four modules get put together, and it holds no logic of its
+own. Build `messages` and `tools`, call `call_model`, `parse_tool_call` the response with
+`allowed={"get_latest_close"}`, `run_tool_call` it with
 `registry={"get_latest_close": get_latest_close}`, then `log_run` the usage figures. Expect a
 float somewhere near 344.63.
+
+Two cells in it are deliberately empty. The tool schema and the messages are yours to write — a
+starter that filled them in would be answering the assignment. There is also a cell that runs your
+`parse_tool_call` against the three recorded responses that should be refused, including the one
+asking for `run_shell_command` with `cat .env`. Run it and read what it prints rather than
+trusting the tests.
 
 If you have no model key this week, run the same four steps against
 `tests/fixtures/model/tool_call.json` instead of a live response, and say so in your pull request.

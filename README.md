@@ -40,9 +40,9 @@ a browser tab, and it needs nothing installed. See `docs/program/setup.md`.
 | Path | What is in it |
 | --- | --- |
 | `docs/program/` | Outlines, sprint plan, Definition of Done, ground rules |
-| `docs/weeks/week-NN/` | The week page, its spec, concepts and reference reading |
-| `docs/consultant/` | The fictional company brief and the transformation plan template |
-| `starters/week-NN/` | The starting point for that week's assignment |
+| `docs/weeks/week-NN/` | The week page and its spec |
+| `docs/consultant/` | The company brief, the plan template, and each sprint's increment |
+| `starters/week-NN.ipynb` | Where that week's modules get put together. No logic in it |
 | `src/fin_agent/` | The package you build. All logic lives here, not in notebooks |
 | `cache/` | Pre-fetched market data for ten tickers. Deterministic by design |
 | `tests/` | The tests each week's spec is checked against |
