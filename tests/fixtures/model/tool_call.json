@@ -1,0 +1,31 @@
+{
+  "id": "chatcmpl-wk02-toolcall",
+  "object": "chat.completion",
+  "created": 1794300000,
+  "model": "gpt-5.4-mini",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_rJ8qK2",
+            "type": "function",
+            "function": {
+              "name": "get_latest_close",
+              "arguments": "{\"ticker\": \"AAPL\"}"
+            }
+          }
+        ]
+      },
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 312,
+    "completion_tokens": 24,
+    "total_tokens": 336
+  }
+}

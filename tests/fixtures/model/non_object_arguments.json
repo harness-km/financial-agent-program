@@ -1,0 +1,31 @@
+{
+  "id": "chatcmpl-wk02-non-object-arguments",
+  "object": "chat.completion",
+  "created": 1794300004,
+  "model": "gpt-5.4-mini",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_5kTzW3",
+            "type": "function",
+            "function": {
+              "name": "get_latest_close",
+              "arguments": "[\"AAPL\"]"
+            }
+          }
+        ]
+      },
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 308,
+    "completion_tokens": 17,
+    "total_tokens": 325
+  }
+}

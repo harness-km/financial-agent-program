@@ -6,7 +6,10 @@ on:
     branches: [main]
 
 jobs:
-  pytest:
+  # Blocking, on push and pull request. This is the job that can actually fail
+  # for a real reason: the package stopped importing, the tooling drifted off
+  # its pinned versions, or a cache file went missing.
+  scaffold:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,8 +22,77 @@ jobs:
       - name: Install
         run: pip install -e ".[dev]"
 
-      - name: Run tests
-        run: pytest
-
       - name: Environment check
         run: python scripts/doctor.py --no-keys
+
+      - name: Cache intact
+        run: python scripts/refresh_cache.py --check
+
+  # Informational, pull requests only.
+  #
+  # `main` holds no solutions by design, so tests/week_NN can never pass here
+  # and a red badge on main would carry no information. On a learner's pull
+  # request this reports which of their weeks pass without failing the pull
+  # request for the weeks they have not reached yet.
+  #
+  # The step summary renders a table on the checks page:
+  #
+  #   passed            every test in that week green
+  #   failing           the code is there and a test disagrees with it
+  #   module missing    a module the tests import does not exist yet
+  #
+  # Definition of Done item 1 is still the learner running `pytest
+  # tests/week_NN` themselves and ticking the box. This job is a convenience,
+  # not the gate.
+  weeks:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -e ".[dev]"
+
+      - name: Week tests
+        continue-on-error: true
+        run: |
+          {
+            echo "### Week tests"
+            echo
+            echo "| Week | Result |"
+            echo "| --- | --- |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          worst=0
+          for dir in tests/week_*; do
+            [ -d "$dir" ] || continue
+            week="${dir#tests/week_}"
+
+            echo "::group::week $week"
+            set +e
+            pytest "$dir"
+            code=$?
+            set -e
+            echo "::endgroup::"
+
+            # pytest exit codes: 0 all passed, 1 tests failed, 2 interrupted
+            # (which here means a test module could not import its target), 5
+            # nothing collected.
+            case "$code" in
+              0) result="passed" ;;
+              1) result="failing" ;;
+              2) result="module missing" ;;
+              5) result="no tests collected" ;;
+              *) result="pytest exited $code" ;;
+            esac
+
+            echo "| $week | $result |" >> "$GITHUB_STEP_SUMMARY"
+            [ "$code" -gt "$worst" ] && worst=$code
+          done
+
+          exit "$worst"

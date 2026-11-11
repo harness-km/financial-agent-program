@@ -1,0 +1,29 @@
+# Line endings, decided here rather than by each person's Git install.
+#
+# Without this file, every clone's line endings depend on a checkbox someone
+# ticked when they installed Git for Windows and has long forgotten. The
+# default is usually right, which is the problem: it is right until it is not,
+# and the failure it produces points nowhere near its cause.
+#
+# `eol=lf` is stronger than normalising on commit: it keeps LF in the working
+# copy too, so what your editor shows is what the repository holds. The case
+# that matters is `.github/workflows/`, where a `run:` block is a bash script
+# executed on a Linux runner. A workflow committed with CRLF fails there with
+# `$'\r': command not found`, and nothing in that message mentions Windows,
+# Git, or line endings.
+#
+# Having set this, run `git add --renormalize .` once so anything already
+# committed with the wrong endings is restaged with the right ones.
+
+* text=auto eol=lf
+
+*.py    text eol=lf
+*.ipynb text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.toml  text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.cfg   text eol=lf
+*.txt   text eol=lf

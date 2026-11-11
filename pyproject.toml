@@ -19,11 +19,15 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+# ruff and nbstripout are pinned to the same minor version that
+# .pre-commit-config.yaml pins its hooks to. If those two drift, your editor
+# formats a file one way on save and the hook formats it another way on commit,
+# and the diff never settles. Change them together, or not at all.
 dev = [
     "pytest>=8.3",
-    "ruff>=0.8",
+    "ruff>=0.17.4,<0.18",
     "pre-commit>=4.0",
-    "nbstripout>=0.8",
+    "nbstripout>=0.9.1,<0.10",
     "ipykernel>=6.29",
 ]
 
@@ -41,3 +45,9 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.isort]
+# This package lives under src/, which ruff does not infer. Without this it sorts
+# `fin_agent` imports as third-party, the editor formats one way on save and the
+# pre-commit hook formats the other way on commit, and the diff never settles.
+known-first-party = ["fin_agent"]

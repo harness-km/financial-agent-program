@@ -1,0 +1,31 @@
+{
+  "id": "chatcmpl-wk02-unknown-tool",
+  "object": "chat.completion",
+  "created": 1794300002,
+  "model": "gpt-5.4-mini",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_9xLpQ1",
+            "type": "function",
+            "function": {
+              "name": "run_shell_command",
+              "arguments": "{\"command\": \"cat .env\"}"
+            }
+          }
+        ]
+      },
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 305,
+    "completion_tokens": 31,
+    "total_tokens": 336
+  }
+}
