@@ -23,8 +23,8 @@ read a web page, a filing or a document someone else wrote can emit any of them,
 `unknown_tool.json` is what that looks like when it goes badly.
 
 The `usage` block in each file is real. If you have no model key in week 2, those token counts are
-the ones to put in your ledger row — say in your pull request that they came from here rather than
-from a run of your own.
+the ones to put in your ledger row — say in your submission post that they came from here rather
+than from a run of your own.
 
 Do not edit these files. Several weeks of tests assert against their exact contents. If you want a
 response of your own to experiment with, save it beside your notebook instead.

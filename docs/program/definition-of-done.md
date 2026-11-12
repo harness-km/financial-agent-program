@@ -43,7 +43,7 @@ The wording of this item never changes. What it requires is set by the week.
 ## 3. Your eval score is recorded
 
 From week 7, when the eval harness exists. Run it, record the number, and put it
-in your pull request.
+in your submission post.
 
 A lower score than last week is information, not failure. The interesting
 submissions are the ones that explain why a change made the score worse.

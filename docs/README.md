@@ -4,6 +4,9 @@
 
 | Document | What it is for |
 | --- | --- |
+| [program/github.md](program/github.md) | Git and GitHub from scratch. Read this first if GitHub is new to you |
+| [program/vscode.md](program/vscode.md) | VS Code from scratch, including the one setting that breaks everything |
+| [program/assistant.md](program/assistant.md) | Setting up Claude, Gemini or ChatGPT, and how to work with it |
 | [program/setup.md](program/setup.md) | Get your environment working. Do this before week 1 |
 | [program/part-1-outline.md](program/part-1-outline.md) | Weeks 1 to 8, the single-agent model |
 | [program/part-2-outline.md](program/part-2-outline.md) | Weeks 9 to 16, multi-agent systems |

@@ -55,11 +55,20 @@ a browser tab, and it needs nothing installed. See `docs/program/setup.md`.
 2. Build it, directing your AI assistant with the rules in
    `docs/program/ai-assistant-rules.md`.
 3. Run the week's tests: `pytest tests/week_NN`.
-4. Open a pull request and post your submission, meeting every item in
+4. Post your submission in Discussions, meeting every item in
    `docs/program/definition-of-done.md`.
 
-Missed a week? Every week has a known-good starting point. Check out
-`week-NN-start` and carry on — you are never locked out of the next session.
+Each week's material arrives in the course repository as that week starts. Pull
+it with `git pull upstream main` — see `docs/program/github.md`, which assumes
+you have never used GitHub before.
+
+Missed a week? Every week has a known-good starting point, so you are never
+locked out of the next session:
+
+```bash
+git fetch upstream
+git checkout upstream/week-NN-start -- src/fin_agent/
+```
 
 ## Disclaimer
 

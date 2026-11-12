@@ -126,7 +126,7 @@ Returns the path. Keyword-only arguments, on purpose: four integers in a row is 
 signature an assistant fills in the wrong order.
 
 `ledger.csv` is gitignored, so the file stays yours. The row goes in the cost ledger table in your
-pull request. Take `tokens_in` and `tokens_out` from `response["usage"]` —
+submission post. Take `tokens_in` and `tokens_out` from `response["usage"]` —
 `prompt_tokens` and `completion_tokens` — and work `cost_usd` out by hand from the provider's
 published price. Doing that arithmetic once, manually, is worth more than a lookup table.
 
@@ -145,7 +145,7 @@ asking for `run_shell_command` with `cat .env`. Run it and read what it prints r
 trusting the tests.
 
 If you have no model key this week, run the same four steps against
-`tests/fixtures/model/tool_call.json` instead of a live response, and say so in your pull request.
+`tests/fixtures/model/tool_call.json` instead of a live response, and say so in your submission.
 The parsing, dispatch and ledger code is identical either way; only `call_model` is skipped.
 
 ## Security criterion
@@ -237,7 +237,7 @@ and the error names the file to create next, in the order above.
 - **A price table or a cost calculator.** Work the cost out by hand and pass the number in.
 - **Pydantic models for the response.** A frozen dataclass and four `if` statements. The point of
   this week is seeing the validation, and a library does it where you cannot watch.
-- **Committing `ledger.csv`.** It is gitignored. The row belongs in your pull request.
+- **Committing `ledger.csv`.** It is gitignored. The row belongs in your submission post.
 
 ## Reference reading
 

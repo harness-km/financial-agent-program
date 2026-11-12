@@ -35,8 +35,8 @@ rather than the numbers it produced. That is intentional — a notebook full of
 other people's outputs is unreadable in a diff, and it is a good way to commit a
 key you printed while debugging.
 
-Put the numbers in your pull request instead, where the ledger table and the eval
-score are meant to go.
+Put the numbers in your submission post instead, where the ledger row and the
+eval score are meant to go.
 
 ## Week 1 has no starter
 

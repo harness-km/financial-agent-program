@@ -42,7 +42,7 @@ artifact it reasons about.
 The concrete leftovers: files, a number, a plot, a committed row. Link to
 `spec.md` for what must be true of them.
 
-Not "an understanding of X". Something that exists on disk or in a pull request.
+Not "an understanding of X". Something that exists on disk or in a submission post.
 
 ## If you are behind
 

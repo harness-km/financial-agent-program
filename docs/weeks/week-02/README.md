@@ -50,7 +50,7 @@ keys, own versus rent. First sprint review and first retrospective.
 
 - `src/fin_agent/tools/quote.py`, `llm.py`, `dispatch.py` and `ledger.py`
 - 48 passing tests: `pytest tests/week_02`
-- A cost ledger row in your pull request — model, calls, tokens in and out, cost
+- A cost ledger row in your submission post — model, calls, tokens in and out, cost
 - Your prompt trail, including the prompts that went wrong
 - Sprint 1's consultant-track section, following
   [`plan-template.md`](../../consultant/plan-template.md)
@@ -60,8 +60,8 @@ test asserts.
 
 You do not need a model API key this week. If you have one, make the live call. If
 you do not, run the same parse-dispatch-ledger path against
-`tests/fixtures/model/tool_call.json` and say so in your pull request — the only
-part you skip is `call_model` itself.
+`tests/fixtures/model/tool_call.json` and say so in your submission post — the
+only part you skip is `call_model` itself.
 
 ## If you are behind
 

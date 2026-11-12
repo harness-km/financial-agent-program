@@ -19,6 +19,15 @@ dist/
 # Notebooks
 .ipynb_checkpoints/
 
+# Instructor working notes — never promoted to the repository.
+# Planning documents, session run sheets, audits. If something in here becomes
+# material the cohort needs, it moves into docs/ and is committed from there.
+_local/
+
+# Staging for paths the remote file tools cannot write (.github, .vscode and
+# friends). Copied into place by hand, then deleted.
+_scaffold/
+
 # Run artifacts — these are yours, not the repo's
 ledger.csv
 scratchpad/

@@ -50,7 +50,7 @@ If you cannot say out loud what a line does, ask for an explanation or a simpler
 version before moving on.
 
 This is the single habit that separates people who finish from people who stall
-around week 10. The pull request template has a section for lines you could not
+around week 10. The submission form has a field for anything you could not
 explain. Using it honestly is worth more than leaving it blank.
 
 ### 5. One change, one run

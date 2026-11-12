@@ -29,16 +29,26 @@ git --version
 If `python --version` reports 3.11 or earlier, or says the command is not found,
 fix that before going further. On macOS use `python3`.
 
-### 2. Clone and open
+### 2. Fork, clone and open
+
+You work in your own copy of the course repository rather than in mine, so first
+**fork** it on GitHub, then clone your fork and point it back at the course for
+weekly updates:
 
 ```bash
-git clone https://github.com/harness-km/financial-agent-program.git
+git clone https://github.com/<your-github-handle>/financial-agent-program.git
 cd financial-agent-program
+git remote add upstream https://github.com/harness-km/financial-agent-program.git
 code .
 ```
 
+If any of that is unfamiliar — and for most of this cohort it will be —
+[`github.md`](github.md) walks through it from making an account, with the
+reasoning for each step. We also do it together in the setup session.
+
 VS Code will offer to install the recommended extensions. Accept. If you miss
-the prompt, open the Extensions panel and type `@recommended`.
+the prompt, open the Extensions panel and type `@recommended`. There is more on
+the editor in [`vscode.md`](vscode.md).
 
 ### 3. Create the environment
 
