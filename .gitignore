@@ -34,6 +34,11 @@ scratchpad/
 .runs/
 *.log
 
+# Editor workspace files. The course is opened with File > Open Folder, as
+# docs/program/vscode.md explains. A committed .code-workspace would ship a
+# multi-root layout naming folders only the instructor has.
+*.code-workspace
+
 # OS and editor
 .DS_Store
 Thumbs.db
