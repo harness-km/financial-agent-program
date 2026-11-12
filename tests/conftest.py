@@ -2,7 +2,7 @@
 
 Tests are grouped by week in `tests/week_NN/`. A week's tests are the spec made
 executable: if they pass, that week is done. Run just yours with
-`pytest tests/week_03`.
+`pytest tests/week_01`.
 """
 
 from __future__ import annotations
