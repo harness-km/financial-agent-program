@@ -100,11 +100,16 @@ pushed, and the fix is revoking it, not deleting the commit.
 
 Use this if your machine blocks installing software, or if Path A fights you.
 
-1. Go to the repository on GitHub.
+1. Fork the course repository first (step 2 above), then go to **your fork** on
+   GitHub. A codespace on the course repo cannot push, because you have no write
+   access to it.
 2. Click the green Code button, then the Codespaces tab, then "Create codespace
    on main".
-3. Wait for the container to build, two to three minutes the first time.
-4. Run `python scripts/doctor.py` in the terminal.
+3. In its terminal, run
+   `git remote add upstream https://github.com/harness-km/financial-agent-program.git`
+   so you can collect each week's material.
+4. Wait for the container to build, two to three minutes the first time.
+5. Run `python scripts/doctor.py` in the terminal.
 
 That is the whole setup. It is the same VS Code, the same extensions and the
 same Python as Path A, because both read `.devcontainer/devcontainer.json`.

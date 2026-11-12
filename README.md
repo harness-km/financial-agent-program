@@ -12,10 +12,24 @@ teaches, applied to the course itself.
 
 ## Quick start
 
+New to GitHub, VS Code or both? Use [`START_HERE.md`](START_HERE.md) instead —
+the same setup in fourteen sequenced steps, each marked read-only or action
+required, with the reasoning for each one. What follows is the short version for
+people who have done this sort of thing before.
+
 1. Install [VS Code](https://code.visualstudio.com/), [Git](https://git-scm.com/)
    and Python 3.12.
-2. Clone this repository and open the folder in VS Code. Accept the prompt to
-   install the recommended extensions.
+2. Fork this repository, clone **your fork**, and add the course repo as
+   `upstream`:
+
+   ```bash
+   git clone https://github.com/<your-github-handle>/financial-agent-program.git
+   cd financial-agent-program
+   git remote add upstream https://github.com/harness-km/financial-agent-program.git
+   code .
+   ```
+
+   Accept the prompt to install the recommended extensions.
 3. Create and activate a virtual environment, then install the package:
 
    ```bash

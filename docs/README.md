@@ -4,6 +4,7 @@
 
 | Document | What it is for |
 | --- | --- |
+| [../START_HERE.md](../START_HERE.md) | The setup checklist, in order. Begin here |
 | [program/github.md](program/github.md) | Git and GitHub from scratch. Read this first if GitHub is new to you |
 | [program/vscode.md](program/vscode.md) | VS Code from scratch, including the one setting that breaks everything |
 | [program/assistant.md](program/assistant.md) | Setting up Claude, Gemini or ChatGPT, and how to work with it |
