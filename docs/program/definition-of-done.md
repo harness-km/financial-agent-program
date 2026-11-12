@@ -18,7 +18,7 @@ The tests are the spec made executable. They assert against cached data, so the
 expected values are exact and there is no judgement call about whether you are
 finished.
 
-If a test is wrong — and some will be — say so in Blockers. A test nobody
+If a test is wrong — and some will be — say so in the Help category. A test nobody
 challenges for sixteen weeks is more likely stale than correct.
 
 ## 2. The week's security requirement is met

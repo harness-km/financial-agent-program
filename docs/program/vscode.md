@@ -159,6 +159,6 @@ where you are. `cd` into it if not.
 **Everything is wrong and you do not know why.** Close VS Code, open it again, open the folder.
 This is not a joke; it is a real first step and it works more often than it should.
 
-**Still wrong.** Post the full output of `python scripts/doctor.py` to the Blockers category in
+**Still wrong.** Post the full output of `python scripts/doctor.py` to the Help category in
 Discussions. Full output, not a summary — the useful line is almost always one of the ones people
 trim.

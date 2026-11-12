@@ -137,5 +137,5 @@ step 3.
 it, stage again. It usually reformatted your file, so `git add` and re-commit.
 
 **Anything else.** Post the full output of `python scripts/doctor.py` plus the
-exact error to the Blockers category. Full output, not a summary — the useful
+exact error to the Help category. Full output, not a summary — the useful
 detail is almost always in the line people trim.

@@ -230,7 +230,7 @@ ledger row, and what broke.
 carries the most weight, and it means it. Working code tells us you got there. The failed prompts
 tell us how, and that is the part anyone else can learn from.
 
-If you are stuck, the **Blockers** category is the place, and "I have no idea what this error
+If you are stuck, the **Help** category is the place, and "I have no idea what this error
 means" is a complete and welcome post.
 
 ## The whole thing, as a card
@@ -283,14 +283,14 @@ Use the email address on your GitHub account, or your commits will not be linked
 again: `git config --global core.editor "code --wait"`, which uses VS Code instead.
 
 **"Your branch and 'origin/main' have diverged."** You and I both changed something. Rare on this
-course, because we work in different folders. Post it in Blockers with the full message rather
+course, because we work in different folders. Post it in the Help category with the full message rather
 than trying things — this is one of the few cases where guessing makes it worse.
 
 **"detached HEAD".** Sounds alarming, is not. You are looking at a snapshot rather than standing
 on a branch. `git checkout main` puts you back.
 
-**Anything else.** Post the *whole* message to Blockers, not a summary of it. The useful detail is
-almost always in the line people trim out.
+**Anything else.** Post the *whole* message to the Help category, not a summary of it. The
+useful detail is almost always in the line people trim out.
 
 ## One last thing
 

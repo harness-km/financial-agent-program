@@ -14,7 +14,7 @@ Budget about two hours in total, and there is no prize for doing it in one
 sitting. Steps 1 to 4 are reading and can be done on a phone on a Tuesday
 evening; steps 5 onwards want you at your laptop.
 
-If a step fights you for fifteen minutes, stop and post it in the **Blockers**
+If a step fights you for fifteen minutes, stop and post it in the **Help**
 category in Discussions. That is the documented path, not a last resort. We also
 do all of this together in the setup session, so arriving with it half-finished
 and a list of questions is a perfectly respectable plan.
@@ -255,8 +255,8 @@ python scripts/doctor.py
 
 If any line fails, that line names what is missing. The troubleshooting section
 at the bottom of [`docs/program/setup.md`](docs/program/setup.md) covers the
-common ones. Still stuck after fifteen minutes: post the **whole** output in
-Blockers, not a summary — the useful detail is almost always in the line people
+common ones. Still stuck after fifteen minutes: post the **whole** output in the
+Help category, not a summary — the useful detail is almost always in the line people
 trim out.
 
 **Why a script.** Setup fails in about nine ways, and asking a script is faster

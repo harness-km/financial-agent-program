@@ -67,7 +67,7 @@ not another prompt.
 ### 7. Stop after two failures
 
 Two attempts at the same error both failing means stop prompting. Bring it to
-the lab hour or the Blockers thread. The third attempt usually widens the damage,
+the lab hour or the Help category. The third attempt usually widens the damage,
 because the model starts rewriting things that were fine.
 
 ## Two more for Part 2
