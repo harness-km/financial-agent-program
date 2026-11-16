@@ -12,10 +12,10 @@ board within two sprints.
 Every week has one two-hour build session. Every second week adds a two-hour
 consultant session, which is also the sprint boundary.
 
-| | Week A | Week B |
-| --- | --- | --- |
-| Build session | 2 hrs | 2 hrs |
-| Consultant session | — | 2 hrs |
+|                    | Week A | Week B |
+| ------------------ | ------ | ------ |
+| Build session      | 2 hrs  | 2 hrs  |
+| Consultant session | —      | 2 hrs  |
 
 Six live hours per sprint, three a week on average, plus your own build time
 between sessions.
@@ -27,27 +27,27 @@ implementing it in a real firm. The consultant increment is always about the
 artifact just built — see `docs/consultant/README.md` for the six lenses applied
 to it every time.
 
-| Sprint | Weeks | Build increment | Implementing it |
-| --- | --- | --- | --- |
-| 1 | 1–2 | Environment working; one raw tool call; traces you can read | *A model that can call one tool* — vendor dependency, what data leaves the firm, who holds the keys, own versus rent |
-| 2 | 3–4 | Three tools and a bounded loop: an agent that answers multi-step questions | *A single multi-step agent* — where it runs, per-tool credentials, the gap between a script and something an analyst uses, how a wrong answer gets caught |
-| 3 | 5–6 | Compaction, behaviour in markdown, your first skill | *Configurable behaviour* — who may edit the prompt, whether that is a production change, who watches the bill |
-| 4 | 7–8 | Traces, the eval harness, a measured agent. **Release 1** | *A measured agent* — the measure a board would accept, who owns the eval set, traces as evidence and as retention liability |
-| 5 | 9–10 | A working graph; query decomposition and search | *A live-web pipeline* — source policy, network egress, rate limits, and the one-agent-or-several decision with a cost attached |
-| 6 | 11–12 | Grounding, relevance filtering, parallel section research | *Cited parallel research* — provenance per claim, concurrency cost, and the reviewer role that just appeared |
-| 7 | 13–14 | Critic loop, approval gate, MCP bridge to your Part 1 agent | *Approvals and third-party tools* — who owns the gate, its SLA and escalation, and MCP code inside the trust boundary |
-| 8 | 15–16 | Verification, decision models, container, deployment. **Release 2** | *The whole system in production* — environments, rollback, secrets, on-call, accountability, adoption |
+| Sprint | Weeks | Build increment                                                            | Implementing it                                                                                                                                           |
+| ------ | ----- | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1      | 1–2   | Environment working; one raw tool call; traces you can read                | *A model that can call one tool* — vendor dependency, what data leaves the firm, who holds the keys, own versus rent                                      |
+| 2      | 3–4   | Three tools and a bounded loop: an agent that answers multi-step questions | *A single multi-step agent* — where it runs, per-tool credentials, the gap between a script and something an analyst uses, how a wrong answer gets caught |
+| 3      | 5–6   | Compaction, behaviour in markdown, your first skill                        | *Behaviour in files* — who may edit the prompt, whether that is a production change, who watches the bill                                                 |
+| 4      | 7–8   | Traces, the eval harness, a measured agent. **Release 1**                  | *A measured agent* — the measure a board would accept, who owns the eval set, traces as evidence and as retention liability                               |
+| 5      | 9–10  | A working graph; query decomposition and search                            | *A live-web pipeline* — source policy, network egress, rate limits, and the one-agent-or-several decision with a cost attached                            |
+| 6      | 11–12 | Grounding, relevance filtering, parallel section research                  | *Cited parallel research* — provenance per claim, concurrency cost, and the reviewer role that just appeared                                              |
+| 7      | 13–14 | Critic loop, approval gate, MCP bridge to your Part 1 agent                | *Approvals and third-party tools* — who owns the gate, its SLA and escalation, and MCP code inside the trust boundary                                     |
+| 8      | 15–16 | Verification, decision models, container, deployment. **Release 2**        | *The whole system in production* — environments, rollback, secrets, on-call, accountability, adoption                                                     |
 
 ## The board
 
 The backlog lives on a GitHub Project attached to this repository, with three
 fields beyond the defaults:
 
-| Field | Type | What it holds |
-| --- | --- | --- |
-| Sprint | Iteration | Two-week iterations, 1 to 8 |
-| Track | Single select | Build or Consultant |
-| Week | Number | 1 to 16, for build items |
+| Field  | Type          | What it holds               |
+| ------ | ------------- | --------------------------- |
+| Sprint | Iteration     | Two-week iterations, 1 to 8 |
+| Track  | Single select | Build or Consultant         |
+| Week   | Number        | 1 to 16, for build items    |
 
 Two views: a Board filtered to the current sprint for day-to-day use, and a
 Table grouped by Sprint for the whole programme.

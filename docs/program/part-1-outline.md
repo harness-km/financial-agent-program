@@ -30,16 +30,16 @@ at the boundary, not scattered through the logic.
 
 ## At a glance
 
-| Week | Focus | What you build | Security criterion |
-| --- | --- | --- | --- |
-| 1 | From workflow to agent | Environment only | No credential anywhere in your clone |
-| 2 | What an LLM does, and how to direct one | One raw tool call | Model output parsed and validated before use |
-| 3 | Tools are the product | Three tools over cached data | Each tool rejects inputs outside the allowed set |
-| 4 | The agent loop | The loop, caps, and the hook pair | Every tool call passes through hooks that can deny it |
-| 5 | Context engineering | Compaction and a result size cap | Post-tool hook caps results; offloaded context gitignored and credential-free |
-| 6 | Behaviour as configuration | Prompt in markdown, plus one skill | Post-tool hook marks fetched text as data; one injection attempt demonstrably fails |
-| 7 | Observability and evaluation | Trace logging and the eval harness | Hooks log every call and outcome, redacted — no key, no client identifier |
-| 8 | Capstone | Nothing new — consolidation | The hook policy and the seven criteria argued as one posture |
+| Week | Focus                                   | What you build                     | Security criterion                                                                  |
+| ---- | --------------------------------------- | ---------------------------------- | ----------------------------------------------------------------------------------- |
+| 1    | From workflow to agent                  | Environment only                   | No credential anywhere in your clone                                                |
+| 2    | What an LLM does, and how to direct one | One raw tool call                  | Model output parsed and validated before use                                        |
+| 3    | Tools are the product                   | Three tools over cached data       | Each tool rejects inputs outside the allowed set                                    |
+| 4    | The agent loop                          | The loop, caps, and the hook pair  | Every tool call passes through hooks that can deny it                               |
+| 5    | Context engineering                     | Compaction and a result size cap   | Post-tool hook caps results; offloaded context gitignored and credential-free       |
+| 6    | Behaviour in files, not code            | Prompt in markdown, plus one skill | Post-tool hook marks fetched text as data; one injection attempt demonstrably fails |
+| 7    | Observability and evaluation            | Trace logging and the eval harness | Hooks log every call and outcome, redacted — no key, no client identifier           |
+| 8    | Capstone                                | Nothing new — consolidation        | The hook policy and the seven criteria argued as one posture                        |
 
 ## Week 1 — From workflow to agent
 
@@ -164,7 +164,7 @@ Done when: the post-tool hook enforces the cap for every tool, everything writte
 to disk goes to a gitignored path, you can state its retention in one sentence,
 and nothing written there contains a credential.
 
-## Week 6 — Behaviour as configuration
+## Week 6 — Behaviour in files, not code
 
 System prompt assembly, the injected-markdown-document pattern, and skills as
 folders of procedure rather than code. The point that matters most here: once
